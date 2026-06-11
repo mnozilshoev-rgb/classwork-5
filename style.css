@@ -119,7 +119,23 @@ form button{
 
 .section2{
     width: 100%;
-    height: 400px;
+    height: 600px;
+}
+.center1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+
+}
+.center1 h1{
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.center1 p{
+    font-size: 17px;
+    color: grey;
 }
 .center{
     text-align: center;
@@ -197,6 +213,74 @@ height: 110px;
 .p{
     padding-top: 30px;
 }
+
+.boxes{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    width: 28%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    ;
+    border: 1px solid gray;
+}
+.box img , p{
+    padding-left: 20px ;
+    padding-right: 20px ;
+}
+
+
+.section3{
+    width: 100%;
+    height: 870px;
+    margin-top: -400px;
+}
+.tarts{
+    width: 80%;
+    height: 520px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.tart{
+    width: 30%;
+    height: 150px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+.tart p , h4{
+    padding-left: 60px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+
+}
+.tart p {
+    color: grey;
+}
+.tart img 
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+
 
 
 
@@ -359,7 +443,7 @@ form button{
 
 .section2{
     width: 60%;
-    height: 600px;
+    height: 1450px;
 }
 .center{
     width: 300px;
@@ -442,6 +526,93 @@ height: 110px;
     padding-top: 30px;
 }
 
+
+
+
+.center1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+
+}
+.center1 h1{
+    font-size: 45px;
+}
+.center1 p{
+    font-size: 15px;
+    color: grey;
+}
+
+.boxes{
+    width: 80%;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.box{
+    width: 80%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    border: 1px solid gray;
+    margin-left: 30px;
+}
+.box img , p{
+    padding-left: 20px ;
+    padding-right: 20px ;
+}
+
+.tarts{
+    width: 80%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.section3{
+    width: 100%;
+    height: 1370px;
+    background-color: #FAFAFA;
+    margin-top: -400px;
+}
+.tart{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+.tart1{
+    display: none;
+}
+.tart p , h4{
+    padding-left: 60px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+
+}
+.tart p {
+    color: grey;
+}
+.tart img 
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
 
 
 
