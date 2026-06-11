@@ -119,23 +119,7 @@ form button{
 
 .section2{
     width: 100%;
-    height: 600px;
-}
-.center1{
-    text-align: center;
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-  
-
-}
-.center1 h1{
-    margin-bottom: 20px;
-    font-size: 45px;
-}
-.center1 p{
-    font-size: 17px;
-    color: grey;
+    height: 300px;
 }
 .center{
     text-align: center;
@@ -153,6 +137,16 @@ form button{
     font-size: 17px;
     color: grey;
 }
+
+.section3{
+    width: 100%;
+    height: 570px;
+      background-color:#FAFAFA ;
+
+}
+
+
+
 
 .cards{
     width: 80%;
@@ -237,10 +231,28 @@ height: 110px;
 }
 
 
-.section3{
+.section4{
     width: 100%;
-    height: 870px;
-    margin-top: -400px;
+    height: 900px;
+    background-color: #FAFAFA !important; 
+   margin-top: -340px;
+}
+
+.center1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 340px;
+    margin-bottom: 100px;
+  
+
+}
+.center1 h1{
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.center1 p{
+    font-size: 17px;
+    color: grey;
 }
 .tarts{
     width: 80%;
@@ -277,6 +289,89 @@ height: 110px;
     position: absolute;
     top: 20px;
     left: 20px;
+}
+
+.section5{
+    width: 100%;
+    height: 840px;
+    background-color: #FAFAFA;
+    margin-top: -340px;
+}
+.center2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 340px;
+    margin-bottom: 100px;
+  
+
+}
+.center2 h1{
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.center2 p{
+    font-size: 17px;
+    color: grey;
+}
+.prices{
+    width: 75%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+}
+.price{
+    width: 33%;
+    height:550px ;
+    border-radius: 10px;
+    border: 1.5px solid #23A6F0 ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price h1{
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.price p{
+    color: #737373;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.price h2{
+    font-size: 35px;
+    color: #23A6F0;
+    margin-bottom: 20px;
+}
+.un{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.price button{
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+    color: white;
+    background-color: #23A6F0;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.price1{
+    height: 620px;
+    margin-top: -40px;
+    background-color: #252B42;
+    color: white;
+}
+.price1 p {
+    color: white;
+}
+.price1 button{
+    margin-top: 50px;
 }
 
 
@@ -525,8 +620,11 @@ height: 110px;
 .p{
     padding-top: 30px;
 }
-
-
+.section3{
+    width: 100%;
+    height: 1370px;
+    background-color: #FAFAFA;
+}
 
 
 .center1{
@@ -577,11 +675,21 @@ height: 110px;
     margin-bottom: 20px;
     margin-top: 50px;
 }
-.section3{
+
+.section4{
     width: 100%;
     height: 1370px;
     background-color: #FAFAFA;
     margin-top: -400px;
+}
+.tarts{
+    width: 80%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 .tart{
     width: 100%;
@@ -612,6 +720,75 @@ height: 110px;
     position: absolute;
     top: 20px;
     left: 20px;
+}
+
+.section5{
+    width: 100%;
+    height: auto;
+    background-color:#FAFAFA ;
+}
+.prices{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.price{
+    width: 100%;
+    height:auto ;
+    border-radius: 10px;
+    border: 1.5px solid #23A6F0 ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price h1{
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.price p{
+    color: #737373;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.price h2{
+    font-size: 35px;
+    color: #23A6F0;
+    margin-bottom: 20px;
+}
+.un{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.price button{
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+    color: white;
+    background-color: #23A6F0;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.price1{
+    height: 620px;
+    margin-top: -40px;
+    background-color: #252B42;
+    color: white;
+}
+.price1 p {
+    color: white;
+}
+.price1 button{
+    margin-top: 50px;
 }
 
 
